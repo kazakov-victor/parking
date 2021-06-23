@@ -1,0 +1,18 @@
+﻿> Task :compileJava
+        /tmp/build_260349c4_/src/main/java/edu/pet/mapper/ContractMapper.java:20: warning: Unmapped target property: "payments".
+        Contract toEntity(ContractDTO contractDTO);
+        ^
+       /tmp/build_260349c4_/src/main/java/edu/pet/mapper/IncomeTypeMapper.java:13: warning: Unmapped target properties: "incomes, prices".
+        IncomeType toEntity(IncomeTypeDTO incomeTypeDTO);
+        ^
+        /tmp/build_260349c4_/src/main/java/edu/pet/mapper/PaymentMapper.java:15: warning: Unmapped target property: "contract_id".
+        PaymentDTO toDto(Payment payment);
+        ^
+        /tmp/build_260349c4_/src/main/java/edu/pet/mapper/PaymentMapper.java:19: warning: Unmapped target properties: "contract, period_id, tscreate, tsagent".
+        Payment toEntity(PaymentDTO paymentDTO);
+        ^
+        /tmp/build_260349c4_/src/main/java/edu/pet/mapper/PersonMapper.java:13: warning: Unmapped target property: "contracts".
+        Person toEntity(PersonDTO personDTO);
+        ^
+        /tmp/build_260349c4_/src/main/java/edu/pet/mapper/PaymentTypeMapper.java:13: warning: Unmapped target property: "payments".
+        PaymentType toEntity(PaymentTypeDTO paymentTypeDTO);
